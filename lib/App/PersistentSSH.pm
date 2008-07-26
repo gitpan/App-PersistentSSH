@@ -3,11 +3,11 @@
 package App::PersistentSSH;
 
 use MooseX::POE;
-use Poe::Wheel::Run;
+use POE::Wheel::Run;
 
 use namespace::clean -except => 'meta';
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 with qw(
 	MooseX::Getopt
